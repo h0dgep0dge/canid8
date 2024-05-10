@@ -1,0 +1,60 @@
+data manipulation
+	load byte, sign extended			11
+	load byte, sign extended, immaddr	11
+	load byte, unsigned					11
+	load byte, unsigned, immaddr		11
+	load word							11
+	load word, immaddr					11
+	load immediate						11
+	store byte							11
+	store byte, immaddr					11
+	store word							11
+	store word, immaddr					11
+	store immediate						11
+	register transfer					11
+
+arithmetic operations, may be between registers or between a register and an immediate value
+	add									000000
+	add, immediate						010000
+	sub									000001
+	sub, immediate						010001
+	mult								001000
+	mult, immediate						011000
+	div									001001
+	div, immediate						011001
+
+logical operations, may be between registers or between a register and an immediate value
+	and									000100
+	and, immediate						010100
+	or									000101
+	or, immediate						010101
+	xor									000110
+	xor, immediate						010110
+	left shift, logical					001100
+	left shift, logical, immediate		011100
+	right shift, logical				001101
+	right shift, logical, immediate		011101
+	right shift, arithmetic				001110
+	right shift, arithmetic, immediate	011110
+	invert								000010
+	invert, immediate					010010
+
+comparative operations, may be between registers or between a register and an immediate value
+	equal								001111
+	equal, immediate					011111
+	greater than, signed				000011
+	greater than, immediate, signed		010011
+	less than, signed					001010
+	less than, immediate, signed		011010
+	greater than, unsigned				000111
+	greater than, immediate, unsigned	010111
+	less than, unsigned					001011
+	less than, immediate, unsigned		011011
+
+control
+	jump								11
+	jump, immediate						11
+	jump, conditional					11
+	jump, conditional, immediate		11
+	
+	

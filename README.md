@@ -12,7 +12,7 @@ AVRs get away with 8-bit, so after all, why shouldn't I?
 
 AVRs have 32 general purpose registers
 
-I want minimal operations on the ALU, as few operations as necessary to implement a universal computer, while still being comprehensible.
+I want minimal operations on the ALU, and as few opcodes as necessary to implement a universal computer, while still being comprehensible.
 
 NAND is functionally complete, and therefore AND+NOT is functionally complete, and therefore AND+OR+NOT is functionally complete, the ALU shall support AND+OR+NOT.
 
